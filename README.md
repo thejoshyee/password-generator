@@ -11,8 +11,8 @@ A solo project for Scrimba's Front End Career Path featuring a password generato
 
 
 ## Preview
-
-
+<img src="https://github.com/thejoshyee/password-generator/blob/main/password-gen-preview.png?raw=true" width="50%" />
 
 
 ## Live Demo
+https://thejoshyee.github.io/password-generator/
