@@ -17,7 +17,7 @@ html, body {
 
 /* Title area */
 h1 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     margin-bottom: 0;
     line-height: 1em;
 }
@@ -28,6 +28,7 @@ h1 {
 
 .tagline {
     margin-top: 0.3em;
+    font-size: 0.8rem;
 
 }
 
@@ -35,7 +36,7 @@ h1 {
     opacity: 10%;
     margin-bottom: 2em;
     margin-left: 0;
-    width: 460px;
+    width: 220px;
     
 }
 
@@ -58,8 +59,8 @@ h1 {
 /* Passwords Area */
 
 .passwords {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 1em;
     max-width: 90%;
     width: 400px;
@@ -85,4 +86,26 @@ a {
 }
 a:visited {
     color: #4ADF86;
+  }
+
+
+  @media (min-width: 520px) {
+    .passwords {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        max-width: 90%;
+        width: 400px;
+        margin-bottom: 4em;
+    }
+
+
+    .divider {
+        opacity: 10%;
+        margin-bottom: 2em;
+        margin-left: 0;
+        width: 460px;
+        
+    }
+
   }
